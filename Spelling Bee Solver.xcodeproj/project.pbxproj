@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BED871A225AE9D18004BA8DE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED871A125AE9D18004BA8DE /* main.swift */; };
+		BED871AC25AEA0BE004BA8DE /* words.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED871AA25AE9D5A004BA8DE /* words.swift */; };
+		BED871BA25AFD23A004BA8DE /* more_words.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED871B925AFD200004BA8DE /* more_words.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		BED8719E25AE9D18004BA8DE /* Spelling Bee Solver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Spelling Bee Solver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED871A125AE9D18004BA8DE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BED871AA25AE9D5A004BA8DE /* words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = words.swift; sourceTree = "<group>"; };
+		BED871B925AFD200004BA8DE /* more_words.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; path = more_words.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				BED871A125AE9D18004BA8DE /* main.swift */,
+				BED871AA25AE9D5A004BA8DE /* words.swift */,
+				BED871B925AFD200004BA8DE /* more_words.swift */,
 			);
 			path = "Spelling Bee Solver";
 			sourceTree = "<group>";
@@ -120,6 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED871A225AE9D18004BA8DE /* main.swift in Sources */,
+				BED871AC25AEA0BE004BA8DE /* words.swift in Sources */,
+				BED871BA25AFD23A004BA8DE /* more_words.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
